@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smiley Emoji</title>
+    <style>
+        /* Container for the emoji */
+        .emoji-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        /* Circle for the face */
+        .smiley-face {
+            width: 200px;
+            height: 200px;
+            background-color: #ffeb3b;
+            border-radius: 50%;
+            position: relative;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Left eye */
+        .eye.left {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background-color: #333;
+            border-radius: 50%;
+            top: 50px;
+            left: 50px;
+        }
+
+        /* Right eye */
+        .eye.right {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background-color: #333;
+            border-radius: 50%;
+            top: 50px;
+            right: 50px;
+        }
+
+        /* Smiling mouth */
+        .smile {
+            position: absolute;
+            width: 120px;
+            height: 60px;
+            border-bottom: 8px solid #333;
+            border-radius: 0 0 100px 100px;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="emoji-container">
+        <div class="smiley-face">
+            <div class="eye left"></div>
+            <div class="eye right"></div>
+            <div class="smile"></div>
+        </div>
+    </div>
+</body>
+</html>

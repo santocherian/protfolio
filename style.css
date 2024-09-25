@@ -1,0 +1,39 @@
+
+body{
+    background-image: url("https://img.freepik.com/free-vector/texture-background-vector_23-2147499281.jpg?size=626&ext=jpg&ga=GA1.1.1090017998.1722711279&semt=ais_hybrid");
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: aqua;
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    padding: 0 20px;
+}
+section{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table th,table td{
+    border: 1px solid black;
+    padding: 10px;
+}
+video{
+    width: 100%;
+    max-width: 600px;
+}
